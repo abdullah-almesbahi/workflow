@@ -1,0 +1,152 @@
+body{
+  direction: rtl;
+}
+.header .header-seperation , .page-sidebar , .navbar .nav>li , .navbar .nav , .pull-left , .header .chat-toggler,.row-fluid [class*="span"],.user-info-wrapper .profile-wrapper,.page-sidebar .page-sidebar-wrapper,.page-title i,.header .chat-toggler .profile-pic,.header .chat-toggler a{
+  float: right !important;
+}
+.tiles .controller,.page-sidebar>ul>li>a>.arrow.open:before,.navbar .nav.pull-right ,.grid-title .tools, .grid-title .actions , .pull-right ,.page-sidebar ul > li > a > .arrow:before,.toolbar{
+  float: left !important;
+}
+body,.page-sidebar,.tiles .tiles-title,h1, h2, h3, h4, h5, h6,.btn,.uneditable-input, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"]{
+  font-family: tahoma;
+}
+.tiles .tiles-title {
+  font-size: 12px;
+  font-weight: normal;
+}
+.navbar .nav{
+  left:auto;
+  right: 0;
+}
+@media (min-width : 768px) {
+  .page-content {
+    margin-left: 0px;
+     margin-right: 250px;
+  }
+}
+/* Landscape view of all tablet devices */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .page-content {
+     margin-right: 50px;
+  }
+}
+.header .notifcation-center {
+  margin-left: 15px !important;
+  margin-right: 0px !important;
+}
+.icon {
+  margin-right: 0px;
+  margin-left: 5px;
+}
+.page-sidebar > ul > li > ul.sub-menu > li > a {
+  padding-left: 0px !important;
+  padding-right: 53px !important;
+}
+.page-sidebar.mini > ul > li > ul.sub-menu {
+  margin-right: 50px;
+  margin-left: 0px;
+}
+.logo {
+  margin: 8px 14px;
+}
+.sidr.right {
+  right: auto;
+  left: -260px;
+}
+.user-info-wrapper .profile-wrapper {
+  margin-right: 0px;
+  margin-left: 11px;
+}
+.page-content.condensed {
+  margin-left: 0px;
+  margin-right: 50px;
+}
+.mini .user-info-wrapper{
+  display: none;
+}
+.scrollup {
+  left: auto;
+  right: 235px;
+}
+.header .search-form {
+  float: right;
+  margin-right: 25px;
+  margin-left: 25px;
+}
+.dropdown-menu>li>a ,.table th, .table td{
+  text-align: right;
+}
+.row-fluid [class*="span"]:first-child {
+  margin-right: 0;
+  margin-left: 0;
+}
+.row-fluid [class*="span"] {
+  float: right;
+  margin-left: 0;
+  margin-right: 2.564102564102564%;
+}
+.grid.simple.vertical.green {
+  border-left: 0px solid #0aa699;
+  border-right: 4px solid #0aa699;
+}
+.open > .sub-menu{
+  display: block !important;
+}
+/***************** Notifications ****************/
+#notifications {
+  position: fixed;
+  z-index: 999990;
+  top: 1em;
+  left: 1em;
+  width: 20em;
+}
+#notifications li {
+  position: relative;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 1.25em;
+  color: white;
+  margin-bottom: 1em;
+  -moz-border-radius: 0.417em;
+  -webkit-border-radius: 0.417em;
+  -webkit-background-clip: padding-box;
+  border-radius: 0.417em;
+  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.list-unstyled {
+  padding-right: 0;
+  padding-left: none;
+  list-style: none;
+}
+.list-unstyled ul{
+  margin-left: 0;
+  margin-right:20px;
+}
+.list-unstyled input{
+  margin-left: 5px;
+}
+.page-title i{
+  margin-left: 12px;
+  margin-right: 0px;
+}
+.header .chat-toggler{
+  margin-left: 5px;
+  margin-right: 0px;
+}
+.page-sidebar.mini .page-sidebar-wrapper > ul > li > ul.sub-menu {
+  margin-right: 50px;
+  margin-left: 0px;
+}
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+  float: right;
+}
+
+.radio input[type="radio"], .radio-inline input[type="radio"], .checkbox input[type="checkbox"], .checkbox-inline input[type="checkbox"] {
+  margin-right: -20px;
+  margin-left: 0px;
+}
+.table th input[type="radio"], input[type="checkbox"], .table td input[type="radio"], input[type="checkbox"] {
+  margin-top: 2px;
+}

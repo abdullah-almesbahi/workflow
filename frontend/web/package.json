@@ -1,0 +1,27 @@
+{
+    "name": "workflow",
+    "version": "1.0.0",
+    "author": "Abdullah Al-Mesbahi <masteryo.sa@gmail.com>",
+    "homepage": "http://amesbahi.com",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/abdullah-almesbahi.git"
+    },
+    "bugs": {
+        "url": "https://github.com/abdullah-almesbahi/issues"
+    },
+    "engines": {
+        "node": ">= 0.10.0"
+    },
+    "devDependencies": {
+        "grunt": "~0.4.5",
+        "grunt-autoprefixer": "~1.0.1",
+        "grunt-contrib-concat": "~0.5.0",
+        "grunt-contrib-less": "~0.12.0",
+        "grunt-contrib-uglify": "~0.6.0",
+        "grunt-contrib-watch": "~0.6.1",
+        "grunt-wp-assets": "~0.2.6",
+        "load-grunt-tasks": "~1.0.0",
+        "time-grunt": "~1.0.0"
+    }
+}

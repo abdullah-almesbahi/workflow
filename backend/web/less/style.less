@@ -1,0 +1,115 @@
+//
+// Main
+// @contribution Tiarê Balbi Bonamini (@tiarebalbi)
+// --------------------------------------------------
+
+// Fonts
+@import url(
+  http://fonts.googleapis.com/css?family=Open+Sans:400,
+  300,
+  600,
+  700
+);
+@color-topbar: white;
+
+// Mixins tools
+@import 'mixins';
+
+//Change your theme here
+@theme-name: 'default';
+
+.theme {
+  @import 'themes/@{theme-name}/theme';
+}
+.theme();
+
+// Includes of Modules
+@import 'modules';
+
+//Theme Overwrite
+
+.font-size-18 {
+  font-size: 18px !important;
+}
+.page-sidebar .page-sidebar-wrapper > ul > li > a i.fa-home {
+  .font-size-18;
+}
+
+.grid-view {
+  background-color: #ffffff;
+  .panel-heading {
+    padding: 14px 15px 7px 15px;
+    border-bottom: 1px solid #eee;
+    color: #282323 !important;
+    background-color: #ffffff;
+    margin-bottom: 0px;
+    border: 1px solid #dddddd;
+    border-bottom: 0px;
+    .btn {
+      padding: 2px 5px 2px 5px;
+      height: 22px;
+      width: 22px;
+      margin-top: 7px;
+      margin-left: 5px;
+      background-color: #c3c1c1;
+      i {
+        color: white;
+      }
+    }
+  }
+  .panel-body {
+    background-color: #ffffff;
+    padding: 5px 26px 5px 26px;
+    border: 1px solid #dddddd;
+    color: #6f7b8a;
+  }
+  .panel-footer {
+    padding: 14px 15px 7px 15px;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-top-width: 0px;
+  }
+  .kv-all-select {
+    border-bottom-width: 0px !important;
+  }
+}
+a.asc:after {
+  content: '\e151';
+}
+a.asc:after,
+a.desc:after {
+  position: relative;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: normal;
+  padding-left: 5px;
+}
+a.desc:after {
+  content: '\e152';
+}
+a.asc:after,
+a.desc:after {
+  position: relative;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: normal;
+  padding-left: 5px;
+}
+div.required label:after {
+  content: ' *';
+  color: red;
+}
+
+.remove-rule {
+  display: inline-block;
+  color: red;
+  cursor: pointer;
+}
+//.form-inline .form-group label {
+//  display: inline-block !important;
+//}
+#enable_workflow_content .checkbox label {
+  padding-left: 20px;
+}

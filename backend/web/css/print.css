@@ -1,0 +1,16 @@
+body { background:white; color:black; margin:0 }
+.header,.page-sidebar,.scrollup,.breadcrumb,.page-title,.comments-widget,.alert,.panel-heading,.panel-footer,.footer-widget,.btn{
+    display: none;
+}
+.form-group .control-label{
+    float: right;
+}
+.form-control{
+    max-height: 20px;
+}
+.panel-default,.form-group{
+    margin: 0px !important;
+    padding: 0px !important;
+    border:0px !important;
+    border-color: inherit;
+}
